@@ -1,0 +1,348 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+
+.header img{
+  width: 1160px;
+}
+.header {
+  border-bottom: 1px #EFEFEF solid;
+  padding: 15px 0px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
+.pricingtxt {
+  margin-top: 180px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+.pricingtxt img {
+  width: 1160px;
+}
+.pricingchart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1160px;
+  margin: 0 auto 100px;
+}
+.one, .two, .three, .four {
+  width: 25%;
+  position: relative;
+  height: 700px;
+}
+.one img, .two img, .three img, .four img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+.one, .two, .three {
+  margin-right: 15px;
+}
+.fixedprice {
+  border: 1px solid #E2E2E2;
+  padding: 20px 30px;
+  position: sticky;
+  top: 85%;
+  width: 100%;
+  box-sizing: border-box;
+  background: white;
+  margin-top: 350px;
+  z-index: 2;
+  text-align: center;
+}
+.fixedprice img {
+  width: 100%;
+  position: relative;
+}
+.footer {
+  background: #081459;
+  padding: 80px 0px 40px;
+  text-align: center;
+}
+.footer img {
+  width: 1160px;
+}
+.contact .right {
+  position: relative;
+}
+.rightcontent {
+  position: absolute;
+  margin-top: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.contact, .ctaflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ctaflex {
+  margin-top: 40px;
+}
+.contact .left, .contact .right {
+  width: 50%;
+  height: 100vh;
+}
+.sales {
+  width: 50%;
+  height: 180px;
+  border: 1px solid #e2e2e2;
+  box-sizing: border-box;
+}
+.tech {
+  width: 50%;
+  height: 180px;
+}
+.contact .right .tech img {
+  width: 100%;
+}
+.sales {
+  margin-right: 10px;
+  transition: 0.2s;
+}
+.sales:hover {
+  border: 1px solid #083D77;
+}
+.slidecontent {
+  overflow: hidden;
+  position: relative;
+  height: 180px;
+}
+.contact .right .salesemail {
+  position: absolute;
+  width: 200px;
+  left: 20px;
+  bottom: -40px;
+  transition: 0.2s;
+}
+.contact .right .salestitle {
+  position: absolute;
+  width: 43px;
+  left: 20px;
+  top: 25px;
+}
+.sales:hover .salesemail {
+  bottom: 25px;
+}
+.contact .left {
+  background-image: url('../images/left.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contact .right img {
+  width: 500px;
+}
+
+.steps {
+  max-width: 610px;
+  margin: 140px auto 100px;
+}
+.steps img {
+  width: 100%;
+}
+.tracker {
+  margin-bottom: 80px;
+}
+.stepstitle {
+  margin-bottom: 40px;
+}
+.choices {
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.choiceone, .choicetwo, .choicethree {
+  width: 50%;
+  border: 1px solid #e2e2e2;
+  padding: 40px;
+  transition: 0.2s;
+}
+.choiceone {
+  margin-right: 10px;
+}
+.choiceone img {
+  width: 64px;
+}
+.choicetwo img {
+  width: 55px;
+}
+.choiceone:hover {
+  border: 1px solid #081459;
+}
+.choicetwo:hover {
+  border: 1px solid #081459;
+}
+.choicethree:hover {
+  border: 1px solid #081459;
+}
+.parenthome {
+  height: 200vh;
+  position: relative;
+}
+.modules {
+  position: sticky;
+  top: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1160px;
+  margin: -143px auto 0;
+  z-index: 2;
+}
+.truckgifcont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  margin-top: 43px;
+  width: 100%;
+}
+.lefttruck, .righttruck {
+  width: 50%;
+  height: 100vh;
+}
+.lefttruck {
+  background: #f8f8f8;
+  position: relative;
+}
+.lefttruck img, .righttruck img {
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%,-30%);
+}
+.lefttruck .fiftytxt, .righttruck .fiftytxt {
+  width: 205px;
+  position: absolute;
+  bottom: 100px;
+  top: unset;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.righttruck {
+  background: #081459;
+  position: relative;
+}
+.firstmodule, .secondmodule, .thirdmodule {
+  width: 33.33%;
+  background: white;
+  border: 1px solid #E2E2E2;
+  text-align: center;
+  padding: 30px 0px;
+  transition: 0.5s;
+}
+.firstmodule:hover {
+  margin-top: -10px;
+}
+.secondmodule:hover {
+  margin-top: -10px;
+}
+.thirdmodule:hover {
+  margin-top: -10px;
+}
+.firstmodule img {
+  width: 229px;
+}
+.secondmodule img {
+  width: 251px;
+}
+.thirdmodule img {
+  width: 213px;
+}
+.firstmodule, .secondmodule {
+  margin-right: 15px;
+}
+.convert {
+  background: #DFE1EC;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+.convert img {
+  position: absolute;
+  max-width: 1160px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.mobiledata {
+  text-align: center;
+  margin: 260px auto 0;
+}
+.warningsdata {
+  text-align: center;
+  margin: 100px auto 100px;
+}
+.mobiledata img, .warningsdata img {
+  max-width: 1160px;
+}
+.abouthero {
+  max-width: 1160px;
+  margin: 160px auto 0px;
+  height: 960px;
+}
+.abouthero img {
+  margin-top: -340px;
+}
+.abouthero img, .aboutmodthree img, .aboutmodfour img {
+  width: 100%;
+}
+.aboutmodthree, .aboutmodfour {
+  max-width: 1160px;
+  margin: 100px auto;
+}
+.videosection {
+  position: relative;
+  height: 225px;
+}
+.videosection video {
+  position: absolute;
+  right: 50%;
+  top: 0;
+  width: 400px;
+}
+.aboutlast {
+  max-width: 700px;
+  margin: 100px auto;
+}
+.aboutlast img {
+  width: 100%;
+}
+.aboutmodsecond {
+  width: 100%;
+  margin: 0px auto 120px;
+  position: relative;
+  text-align: center;
+}
+.aboutsecondright {
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  width: 640px;
+}
+.aboutsecondright img {
+  width: 100%;
+}
+.aboutmodsecond img {
+  max-width: 1160px;
+}
+.moduletooltip {
+  z-index: 2;
+}

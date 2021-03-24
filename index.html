@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="EN-us">
+<head>
+   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta charset="UTF-8">
+   <title>Edward Park | UX Designer based in NYC</title>
+   <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+   <meta property="og:image" content="https://edwardjpark.com/images/ogo.png" />
+   <link rel="stylesheet" href="CSS/style.css">
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+
+
+</head>
+
+<body>
+   <style>
+   .header {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      transition: 0.2s;
+   }
+   .header img {
+      margin: auto;
+   }
+   .header:hover {
+      background: white !important;
+   }
+   .header:hover .scrollnav {
+      display: block !important;
+   }
+   .header:hover .restnav {
+      display: none !important;
+   }
+   .hero {
+      background: black;
+      height: 100vh;
+      overflow: hidden;
+      position: relative;
+   }
+   .hero img {
+      width: 379px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+   }
+   .scrollnav {
+      display: none;
+   }
+      video {
+         width: 100%;
+         opacity: 0.8;
+      }
+   </style>
+   <div class="header">
+      <img class="scrollnav" src="images/headernav.png">
+      <img class="restnav" src="images/restnav.png">
+   </div>
+
+   <div class="hero">
+      <video autoplay muted loop src="images/truckvid.mp4" type="video.mp4">
+      </video>
+      <img src="images/herotxt.png">
+   </div>
+
+   <div class="parenthome">
+      <div class="modules">
+         <div class="firstmodule">
+            <img src="images/hos.png">
+         </div>
+         <div class="secondmodule">
+            <img src="images/pti.png">
+         </div>
+         <div class="thirdmodule">
+            <img src="images/workorder.png">
+         </div>
+      </div>
+      <div class="truckgifcont">
+         <div class="lefttruck">
+            <img class="moduletooltip" src="images/moduletooltip.png">
+            <img src="images/truck.gif">
+            <img class="fiftytxt" src="images/dailyrecords.png">
+         </div>
+         <div class="righttruck">
+            <img class="moduletooltip" src="images/moduletooltiptwo.png">
+            <img src="images/truckright.gif">
+            <img class="fiftytxt" src="images/historicrecords.png">
+         </div>
+      </div>
+      <div class="convert">
+         <img src="images/converttitle.png">
+      </div>
+   </div>
+
+   <div class="mobiledata">
+      <img src="images/mobiledata.png">
+   </div>
+
+
+   <div class="warningsdata">
+      <img src="images/warnings.png">
+   </div>
+
+
+   <div class="footer">
+      <img src="images/footer.png">
+   </div>
+
+
+
+   <script>
+        $(window).scroll(function () {
+if ($(window).scrollTop() >= 30) {
+$('.header').css('box-shadow','0 2px 8px 0 rgba(0,0,0,0.1)');
+$('.scrollnav').css('display','block');
+$('.restnav').css('display','none');
+$('.header').css('background', 'white');
+} else {
+$('.header').css('box-shadow','none');
+$('.scrollnav').css('display','none');
+$('.restnav').css('display','block');
+$('.header').css('background', 'transparent');
+}
+});
+   </script>
+</body>
