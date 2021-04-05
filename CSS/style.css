@@ -209,7 +209,7 @@ body {
   justify-content: center;
   position: sticky;
   top: 0;
-  margin-top: 43px;
+  margin-top: 40px;
   width: 100%;
 }
 .lefttruck, .righttruck {
@@ -240,24 +240,15 @@ body {
   position: relative;
 }
 .firstmodule, .secondmodule, .thirdmodule {
-  width: 33.33%;
+  width: 100%;
   background: white;
   border: 1px solid #E2E2E2;
   text-align: center;
   padding: 30px 0px;
   transition: 0.5s;
 }
-.firstmodule:hover {
-  margin-top: -10px;
-}
-.secondmodule:hover {
-  margin-top: -10px;
-}
-.thirdmodule:hover {
-  margin-top: -10px;
-}
 .firstmodule img {
-  width: 229px;
+  width: 938px;
 }
 .secondmodule img {
   width: 251px;
