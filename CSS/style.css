@@ -83,15 +83,22 @@ body {
 
 .contact, .ctaflex {
   display: flex;
-  justify-content: center;
-  align-items: center;
+
 }
 .ctaflex {
   margin-top: 40px;
+  margin-bottom: 80px;
 }
 .contact .left, .contact .right {
   width: 50%;
   height: 100vh;
+}
+.contact .right {
+  height: 220vh !important;
+}
+.contact .left {
+  position: sticky;
+  top: 0;
 }
 .sales {
   width: 50%;
@@ -147,7 +154,7 @@ body {
 
 .steps {
   max-width: 610px;
-  margin: 140px auto 100px;
+  margin: 180px auto 100px;
 }
 .steps img {
   width: 100%;
@@ -195,12 +202,11 @@ body {
 }
 .modules {
   position: sticky;
-  top: 110px;
+  top: 78px;
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 1160px;
-  margin: -144px auto 0;
+  margin: -100px auto 0;
   z-index: 2;
 }
 .truckgifcont {
@@ -209,7 +215,6 @@ body {
   justify-content: center;
   position: sticky;
   top: 0;
-  margin-top: 40px;
   width: 100%;
 }
 .lefttruck, .righttruck {
@@ -256,15 +261,12 @@ body {
 .thirdmodule img {
   width: 213px;
 }
-.firstmodule, .secondmodule {
-  margin-right: 15px;
-}
 .convert {
   background: #DFE1EC;
   height: 100vh;
   position: sticky;
   top: 0;
-  z-index: 3;
+  z-index: 1;
 }
 .convert img {
   position: absolute;
